@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Ameer.com</title>
+</head>
+<body>
+    <header>
+        <a href="{% url 'home' %}">Bosh sahifa</a>
+        <a href="{% url 'about' %}">About</a>
+        <a href="{% url 'product' %}">Products</a>
+        <a href="{% url 'history' %}">History</a>
+    </header>
+
+    {% block content %}
+    {% endblock content %}
+
+
+</body>
+</html>
